@@ -20,11 +20,12 @@ $dbPass = $_ENV['DB_PASS'];
 $dbName = $_ENV['DB_NAME'];
 
 // Connect to the database
-$mysqli = new mysqli($dbHost, $dbUser, $dbPass, $dbName);
+$con = new mysqli($dbHost, $dbUser, $dbPass, $dbName);
 
-if ($mysqli->connect_error) {
-    die("Connection failed: " . $mysqli->connect_error);
+if(!$con){
+    die(mysqli_error($con));
 }
+
 
 echo "Connected successfully to the database!";
 ?>
