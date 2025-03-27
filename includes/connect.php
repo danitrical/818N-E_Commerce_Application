@@ -56,7 +56,7 @@ try {
         throw new Exception("SSL not enabled for database connection");
     }
 
-    echo "Connected successfully to the database with SSL! Cipher: " . $row['Value'];
+    // echo "Connected successfully to the database with SSL! Cipher: " . $row['Value'];
     
     // Use $con for your queries...
     
