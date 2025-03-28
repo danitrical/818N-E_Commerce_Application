@@ -22,7 +22,7 @@ function getProduct($numToDisplay = '')
         <div class='col-md-4 mb-2'>
         <div class='one-card'>
             <div class='photo'>
-                <img src='./admin/product_images/$product_image_one' alt='$product_title'>
+                <img src='$cloudFrontUrl/admin/product_images/$product_image_one' alt='$product_title'>
                 <button>
                     <a class='text-light' href='products.php?add_to_cart=$product_id'>Add To Cart</a>
                 </button>
@@ -88,7 +88,7 @@ function filterCategoryProduct()
         <div class='col-md-4 mb-2'>
         <div class='one-card'>
             <div class='photo'>
-                <img src='./admin/product_images/$product_image_one' alt='$product_title'>
+                <img src='$cloudFrontUrl/admin/product_images/$product_image_one' alt='$product_title'>
                 <button>
                 <a class='text-light' href='products.php?add_to_cart=$product_id'>Add To Cart</a>
             </button>
@@ -153,7 +153,7 @@ function filterBrandProduct()
         <div class='col-md-4 mb-2'>
         <div class='one-card'>
             <div class='photo'>
-                <img src='./admin/product_images/$product_image_one' alt='$product_title'>
+                <img src='$cloudFrontUrl/admin/product_images/$product_image_one' alt='$product_title'>
                 <button>
                 <a class='text-light' href='products.php?add_to_cart=$product_id'>Add To Cart</a>
             </button>
@@ -257,7 +257,7 @@ function search_product()
         <div class='col-md-4 mb-2'>
         <div class='one-card'>
             <div class='photo'>
-                <img src='./admin/product_images/$product_image_one' alt='$product_title'>
+                <img src='$cloudFrontUrl/admin/product_images/$product_image_one' alt='$product_title'>
                 <button>
                 <a class='text-light' href='products.php?add_to_cart=$product_id'>Add To Cart</a>
             </button>
@@ -322,14 +322,14 @@ function viewDetails()
                     <div class='row mx-0 justify-content-md-center gap-3 gap-md-0'>
                     <div class='col-md-2'>
                         <div class='prod-imgs'>
-                            <img src='./admin/product_images/$product_image_one' alt='$product_title'>
-                            <img src='./admin/product_images/$product_image_two' alt='$product_title'>
-                            <img src='./admin/product_images/$product_image_three' alt='$product_title'>
+                            <img src='$cloudFrontUrl/admin/product_images/$product_image_one' alt='$product_title'>
+                            <img src='$cloudFrontUrl/admin/product_images/$product_image_two' alt='$product_title'>
+                            <img src='$cloudFrontUrl/admin/product_images/$product_image_three' alt='$product_title'>
                         </div>
                     </div>
                     <div class='col-md-5'>
                         <div class='main-img'>
-                            <img src='./admin/product_images/$product_image_one' alt='$product_title'>
+                            <img src='$cloudFrontUrl/admin/product_images/$product_image_one' alt='$product_title'>
                         </div>
                     </div>
                     <div class='col-md-5'>

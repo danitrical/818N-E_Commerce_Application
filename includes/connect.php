@@ -18,6 +18,7 @@ $dbHost = $_ENV['DB_HOST'];
 $dbUser = $_ENV['DB_USER'];
 $dbPass = $_ENV['DB_PASS'];
 $dbName = $_ENV['DB_NAME'];
+$cloudFrontUrl = $_ENV['CLOUD_FRONT_URL'];
 
 // SSL configuration - add these to your .env file
 $sslCa = $_ENV['DB_SSL_CA'] ?? '/etc/ssl/certs/rds-combined-ca-bundle.pem'; // AWS RDS CA path

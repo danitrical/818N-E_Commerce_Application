@@ -10,8 +10,8 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce Cart Details Page</title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.css" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="<?php echo $cloudFrontUrl; ?>/assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="<?php echo $cloudFrontUrl; ?>/assets/css/main.css" />
 </head>
 
 <body>
@@ -167,7 +167,7 @@ session_start();
                                         <td>
                                             <?php echo $product_title; ?>
                                         </td>
-                                        <td><img src="./admin/product_images/<?php echo $product_image_one; ?>" class="img-thumbnail" alt="<?php echo $product_title; ?>"></td>
+                                        <td><img src="<?php echo $cloudFrontUrl; ?>/admin/product_images/<?php echo $product_image_one; ?>" class="img-thumbnail" alt="<?php echo $product_title; ?>"></td>
                                         <td>
                                             <input type="number" class="form-control w-50 mx-auto" min="1" name="qty_<?php echo $product_id; ?>">
                                         </td>
@@ -293,8 +293,8 @@ session_start();
         <span>All CopyRight &copy;2023</span>
     </div> -->
     <!-- End Footer -->
-
-    <script src="./assets//js/bootstrap.bundle.js"></script>
+   
+    <script src="<?php echo $cloudFrontUrl; ?>/assets//js/bootstrap.bundle.js"></script>
 </body>
 
 </html>
