@@ -181,8 +181,8 @@ session_start();
         <span>All CopyRight &copy;2023</span>
     </div> -->
     <!-- End Footer -->
-    <script src="<?php echo $cloudFrontUrl; ?>/assets//js/bootstrap.bundle.js"></script>
-    <script src="<?php echo $cloudFrontUrl; ?>/assets//js/script.js"></script>
+    <script src="<?php echo $cloudFrontUrl; ?>/assets/js/bootstrap.bundle.js"></script>
+    <script src="<?php echo $cloudFrontUrl; ?>/assets/js/script.js"></script>
 </body>
 
 </html>
